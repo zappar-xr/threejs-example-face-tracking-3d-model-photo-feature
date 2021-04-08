@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "@zappar/webgl-snapshot": "0.0.17",
-    "@zappar/zappar-threejs": "^0.3.8",
+    "@zappar/zappar-threejs": "^0.3.22",
     "three": "^0.126.1"
   }
 }
