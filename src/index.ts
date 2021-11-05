@@ -6,7 +6,7 @@
 import * as THREE from 'three';
 import * as ZapparThree from '@zappar/zappar-threejs';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
-import snapshot from '@zappar/webgl-snapshot';
+import ZapparWebGLSnapshot from '@zappar/webgl-snapshot';
 import helmet from '../assets/z_helmet.glb';
 import './index.sass';
 
@@ -117,7 +117,7 @@ placeButton.addEventListener('click', () => {
   const url = canvas.toDataURL('image/jpeg', 0.8);
 
   // Take snapshot
-  snapshot({
+  ZapparWebGLSnapshot({
     data: url,
   });
 });
